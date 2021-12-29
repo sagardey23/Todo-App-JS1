@@ -1,0 +1,76 @@
+
+.main{
+    width: 50%;
+    margin: auto;
+}
+.add{
+    margin-top: 200px;
+}
+.li{
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 800;
+}
+.li2{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin-right: 230px;
+    font-size: 45px;
+    color: rgb(70, 66, 66);
+    opacity: 50%;
+}
+.list{
+    text-align: right;
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(94, 86, 86);
+    font-size: 40px;
+    display: inline-block;
+}
+.parent{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.parent1{
+    position: relative;
+}
+.parent2{
+    position: relative;
+}
+.parent3{
+    position: relative;
+}
+.card{
+    border: 1px solid rgb(226, 67, 67);
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px rgb(202, 191, 191);
+    height: 300px;
+    width: 200px;
+    margin-right: 60px;
+    padding-left: 50px;
+    
+
+}
+.org{
+    color: rgb(236, 70, 10);
+    text-align: center;
+    font: 1.5em sans-serif;
+    opacity: 60%;
+    text-decoration: none;
+}
+.und{
+    text-decoration:  2px line-through;
+    color: rgb(236, 70, 10);
+    text-align: right;
+    font: 17px sans-serif;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+.left{
+    position: absolute;
+    left: 1px;
+}
+.blur{
+    filter: blur(10px);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="blur">
+        <div class="main">
+            <div class="add">
+                <p class="li" >Tasks </p> <p class="li2"> Lists</p>
+                <a href="./index3.html">
+                    <i class="fa fa-plus-circle" style="font-size:48px;color:red"></i>
+                    <p class="list">Add List</p>
+                </a>
+            </div>
+            <div class="parent">
+                <div class="parent1">
+                <div class="card">
+                    <a href="./index2.html" class="org">
+                        <p>Trip to Paris</p>
+                    </a>
+                    <hr>
+                    <p class="und">Completed Task</p>
+                    <div class="left">
+                        <input type="checkbox" /> Pending Task
+                    </div>
+        
+                    </div>
+    
+                </div>
+                <div class="parent2">
+                <div class="card">
+                        <p class="org">My Todo List</p>
+                    <hr>
+                    <p class="und">Completed Task</p>
+                    <div class="left">
+                        <input type="checkbox" /> Pending Task
+                    </div>
+    
+                </div>
+    
+                </div>
+                <div class="parent3">
+                <div class="card">
+                        <p class="org">My Todo List</p>
+                    <hr>
+                    <p class="und">Completed Task</p>
+                    <div class="left">
+                        <input type="checkbox" /> Pending Task
+                    </div>
+                </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="al">
+        <p>Add New List</p>
+        <input type="text" class="inputbox" id="task" name="task" value="">
+        <br>
+        <br>
+        <button class="ib" onClick=addTask()> ADD</button>
+        <!-- <span class="ib">ADD</span> -->
+    </div>
+    <div id="parent123" class="parent">
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
